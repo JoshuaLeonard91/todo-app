@@ -6,15 +6,6 @@ import TodoList from "./components/TodoList"
 
 function App() {
 
-  // const todos = [
-  //   { input: 'Hello!', complete: true },
-  //   { input: 'boob', complete: false },
-  //   { input: 'penis', complete: false },
-  //   { input: 'feed tememo and yogi', complete: true }
-  // ]
-
-
-
   const [todos, setTodos] = useState([
     { input: 'Hello!', complete: true }
   ])
